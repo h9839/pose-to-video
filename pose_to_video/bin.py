@@ -5,7 +5,8 @@ import importlib
 
 import cv2
 from pose_format.pose import Pose
-from pose_format.utils.generic import correct_wrists, reduce_holistic
+#from pose_format.utils.generic import correct_wrists, reduce_holistic
+from fix import correct_wrists, reduce_holistic
 from tqdm import tqdm
 
 
